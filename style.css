@@ -13,6 +13,7 @@ body{
 ul{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -21,18 +22,18 @@ ul{
 }
 
 li{
+    position: relative;
     width: 20.9375rem;
     height: 26.9375rem;
-    position: relative;
     margin: 0.625rem;
 }
 
 .legenda{
     position: absolute;
     top: 80%;
-    font-weight: 700;
     font-size: 1.875rem;
     margin-left: 0.9375rem;
+    font-weight: 700;
 }
 
 .legenda span{
